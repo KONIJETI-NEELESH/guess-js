@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="scores hide">
+        <div class="score">
+            score : <span id="score"> 20</span>
+        </div>
+        <div class="high-score"><span id="playerName"></span>
+            high-score : <span id="high">
+                Not yet played !
+            </span>
+        </div>
+    </div>
+    <div class="container hide">
+        <input type="text" id="input">
+        <h3 class="details">Guess a number between 1 to 10</h3>
+        <h4 id="msg"></h4>
+        <div class="buttons">
+            <button id="guessbtn" class="guess btn">
+                Guess
+            </button>
+            <button id="tryagainbtn" class="try btn tryhide">
+                Try-again
+            </button>
+        </div>
+    </div>
+    <div id="welcome">
+        <span class="message">Enter your name :</span>
+        <input type="text" id="name">
+        <span id="givenName"></span>
+        <button id="startGame">start</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
